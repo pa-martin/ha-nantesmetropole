@@ -1,0 +1,49 @@
+{
+  "config": {
+    "abort": {
+      "type_already_configured": "Ce type d'infrastructure est déjà configuré."
+    },
+    "error": {
+      "invalid_type": "Sélectionnez un type d'infrastructure valide.",
+      "no_infrastructure": "Aucune infrastructure trouvée pour ce type.",
+      "no_infrastructure_selected": "Sélectionnez au moins une infrastructure."
+    },
+    "step": {
+      "user": {
+        "title": "Nantes Métropole",
+        "description": "Sélectionnez le type d'infrastructure à configurer.",
+        "data": {
+          "infrastructure_type": "Type d'infrastructure"
+        }
+      },
+      "select_infrastructures": {
+        "title": "Nantes Métropole",
+        "description": "Sélectionnez les infrastructures à créer pour ce service.",
+        "data": {
+          "infrastructures": "Infrastructures"
+        }
+      }
+    }
+  },
+  "options": {
+    "error": {
+      "no_infrastructure_selected": "Sélectionnez au moins une infrastructure."
+    },
+    "step": {
+      "init": {
+        "title": "Nantes Métropole",
+        "description": "Mettez à jour les infrastructures liées à ce service.",
+        "data": {
+          "infrastructures": "Infrastructures"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "infrastructure_state": {
+        "name": "État de l'infrastructure"
+      }
+    }
+  }
+}

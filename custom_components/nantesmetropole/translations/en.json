@@ -1,0 +1,49 @@
+{
+  "config": {
+    "abort": {
+      "type_already_configured": "This infrastructure type is already configured."
+    },
+    "error": {
+      "invalid_type": "Select a valid infrastructure type.",
+      "no_infrastructure": "No infrastructure found for this type.",
+      "no_infrastructure_selected": "Select at least one infrastructure."
+    },
+    "step": {
+      "user": {
+        "title": "Nantes Métropole",
+        "description": "Select the infrastructure type to configure.",
+        "data": {
+          "infrastructure_type": "Infrastructure type"
+        }
+      },
+      "select_infrastructures": {
+        "title": "Nantes Métropole",
+        "description": "Select infrastructures to create devices for this service.",
+        "data": {
+          "infrastructures": "Infrastructures"
+        }
+      }
+    }
+  },
+  "options": {
+    "error": {
+      "no_infrastructure_selected": "Select at least one infrastructure."
+    },
+    "step": {
+      "init": {
+        "title": "Nantes Métropole",
+        "description": "Update infrastructures attached to this service.",
+        "data": {
+          "infrastructures": "Infrastructures"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "infrastructure_state": {
+        "name": "Infrastructure state"
+      }
+    }
+  }
+}
